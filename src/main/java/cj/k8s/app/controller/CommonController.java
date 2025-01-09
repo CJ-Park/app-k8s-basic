@@ -8,6 +8,6 @@ public class CommonController {
 
     @GetMapping("/api/status")
     public String healthCheck() {
-        return "Status - returned by Pod";
+        return "Status - returned by Pod / Github Actions CI test";
     }
 }
