@@ -47,4 +47,5 @@ jobs:
       with:
         context: .
         push: true
+        platforms: linux/arm64,linux/amd64 # 다중 플랫폼 설정
         tags: ${{ secrets.DOCKERHUB_USERNAME }}/k8s-test:latest
